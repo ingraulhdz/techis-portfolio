@@ -19,7 +19,7 @@
 
     <style></style>
   </head>
-  <nav class="navbar navbar-expand-lg bg-light border">
+  <nav class="navbar navbar-expand-lg bg-light border ">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><b><span style="color: #00abae">P</span>ortFolio</b></a>
       <button
@@ -33,13 +33,13 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 float-right">
-          <li class="nav-item">
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+          <li class="nav-item float-end">
             <a class="nav-link active" aria-current="page" href="#about">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projects">Project</a>
+            <a class="nav-link float-end" href="#projects">Project</a>
           </li>
         </ul>
       </div>
@@ -51,14 +51,14 @@
       <div>
         <h3><span style="color: #00abae">A</span>bout me</h3>
         <img
-          src="https://techis-wd-portfolio.herokuapp.com/img/sample-woman.jpg"
+          src="https://media-exp1.licdn.com/dms/image/C4D03AQGfGpadINA2ww/profile-displayphoto-shrink_400_400/0/1528570021740?e=1666828800&v=beta&t=-WDAVmCUcWY3KsSBHuLn5syuCybiNqDlr3l5qNx8VJQ"
           class="rounded-circle m-3"
           width="120px"
         />
       </div>
       <div class="details-about align-items-center ">
         
-      <h5>Olivia Johnson</h5>
+      <h5>Raul Hernandez</h5>
       <h6 Style="color:lightslategray; margin-bottom: 30px;">Web Application Developer</h6>
       <p style="color:#00abae">
         HTML / CSS / JavaScript / React.js / Redux / Python / Django /<br>
@@ -71,15 +71,15 @@
       <p>support@techis.io</p>
 
       <div style="font-size: 40px;">
-        <i class="fa fa-github m-2 "></i>
-        <i class="fa fa-linkedin m-2 "></i>
+       <a href="https://github.com/ingraulhdz"> <i class="fa fa-github m-2 text-dark "></i></a>
+       <a href="https://www.linkedin.com/in/raulhp/"> <i class="fa fa-linkedin m-2 text-dark "></i></a>
       </div>
       </div>
     </section>
 <hr>
     <section id="projects"  >
         
-      <h3 class="text-center"><span style="color: #00abae">P</span>ortFolio</h3>
+      <h3 class="text-center"><span style="color: #00abae">P</span>rojects</h3>
 
         <div class="single-project row border border-muted m-4 p-4">
             <div class="video-project col-4 text-center">
@@ -102,7 +102,7 @@
 
                 <div class="">
                     <button class="btn btn-secondary">Website</button>
-                    <button class="btn btn-dark">Website</button>
+                    <button class="btn btn-dark">Github</button>
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@
 
                 <div class="">
                     <button class="btn btn-secondary">Website</button>
-                    <button class="btn btn-dark">Website</button>
+                    <button class="btn btn-dark">Github</button>
                 </div>
             </div>
         </div>
@@ -154,7 +154,7 @@
 
                 <div class="">
                     <button class="btn btn-secondary">Website</button>
-                    <button class="btn btn-dark">Website</button>
+                    <button class="btn btn-dark">Github</button>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -33,8 +33,8 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 float-right">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#about">About Me</a>
           </li>
@@ -47,19 +47,19 @@
   </nav>
 
   <body class="">
-    <section id="about" class="text-center">
+    <section id="about" class="text-center m-4">
       <div>
-        <h2><span class="m">A</span>bout</h2>
+        <h3><span style="color: #00abae">A</span>bout me</h3>
         <img
           src="https://techis-wd-portfolio.herokuapp.com/img/sample-woman.jpg"
-          class="rounded-circle"
+          class="rounded-circle m-3"
           width="120px"
         />
       </div>
       <div class="details-about align-items-center ">
         
       <h5>Olivia Johnson</h5>
-      <h6 Style="color:lightslategray">Web Application Developer</h6>
+      <h6 Style="color:lightslategray; margin-bottom: 30px;">Web Application Developer</h6>
       <p style="color:#00abae">
         HTML / CSS / JavaScript / React.js / Redux / Python / Django /<br>
         Express.js / AWS (Basic) / Docker (Basic)
@@ -70,19 +70,21 @@
       </p>
       <p>support@techis.io</p>
 
-      <div style="font-size: 50px;">
+      <div style="font-size: 40px;">
         <i class="fa fa-github m-2 "></i>
         <i class="fa fa-linkedin m-2 "></i>
       </div>
       </div>
     </section>
 <hr>
-    <section id="projects">
+    <section id="projects"  >
+        
+      <h3 class="text-center"><span style="color: #00abae">P</span>ortFolio</h3>
 
         <div class="single-project row border border-muted m-4 p-4">
             <div class="video-project col-4 text-center">
-                <video class="project-video" autoplay muted controls width="170px">
-                    <source src="http://127.0.0.1:5500/project-cafe.mp4" type="video/mp4">
+                <video class="project-video" autoplay muted controls width="170px" height="270px">
+                    <source src="/" type="video/mp4">
                 </video>
 
             </div> 
@@ -109,7 +111,7 @@
         <div class="single-project row border border-muted m-4 p-4">
             <div class="video-project col-4 text-center">
                
-                <img  src="https://techis-wd-portfolio.herokuapp.com/img/project-twitter.png"  width="200px" height="270px">
+                <img  src="https://techis-wd-portfolio.herokuapp.com/img/project-twitter.png"  width="270px" height="170px">
 
             </div> 
             <div class="deatils-project col-8">
@@ -135,7 +137,7 @@
         <div class="single-project row border border-muted m-4 p-4">
             <div class="video-project col-4 text-center">
                
-                <img  src="https://techis-wd-portfolio.herokuapp.com/img/project-netflix.png"  width="200px" height="270px">
+                <img  src="https://techis-wd-portfolio.herokuapp.com/img/project-netflix.png"   width="270px" height="170px">
 
             </div> 
             <div class="deatils-project col-8">
@@ -157,6 +159,7 @@
             </div>
         </div>
 
+      </div>
         
 
     </section>
